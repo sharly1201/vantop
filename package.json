@@ -1,0 +1,10 @@
+{
+  "name": "vantop",
+  "private": true,
+  "workspaces": [
+    "packages/@vantop/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.21.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@vantop/vantop-font",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "sharly <sharly1201@gmail.com>",
+  "homepage": "https://github.com/sharly1201/vantop/tree/master/packages/@vantop/vantop-font#readme",
+  "license": "Apache-2.0",
+  "main": "lib/vantop-font.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharly1201/vantop.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/sharly1201/vantop/issues"
+  }
+}
