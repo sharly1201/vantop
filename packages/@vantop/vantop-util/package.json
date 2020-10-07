@@ -1,6 +1,6 @@
 {
   "name": "@vantop/vantop-util",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.1+8c6becd",
   "description": "> TODO: description",
   "author": "sharly <sharly1201@gmail.com>",
   "homepage": "https://github.com/sharly1201/vantop/tree/master/packages/@vantop/vantop-util#readme",
@@ -14,7 +14,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,6 @@
   },
   "bugs": {
     "url": "https://github.com/sharly1201/vantop/issues"
-  }
+  },
+  "gitHead": "8c6becd56e9197da6e195b3ce73d0e1ec12946a7"
 }
