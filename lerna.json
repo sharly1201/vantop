@@ -1,0 +1,46 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "ignoreChanges": [
+        "ignored-file",
+        "**/__fixtures__/**",
+        "**/__tests__/**",
+        "**/*.md"
+      ],
+      "?message": "chore(release): publish",
+      "message": "chore(release): publish %s"
+    },
+    "create": {
+      "homepage": "https://github.com/sharly1201/vantop",
+      "license": "Apache"
+    },
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    },
+    "publishConfig": {
+      "access": "public"
+    }
+  },
+  "packages": [
+    "packages/@vantop/*"
+  ],
+  "changelog": {
+    "repo": "sharly1201/vantop",
+    "labels": {
+      "PR: New Feature": ":rocket: New Features",
+      "PR: Breaking Change": ":boom: Breaking Changes",
+      "PR: Bug Fix": ":bug: Bug Fix",
+      "PR: Documentation": ":memo: Documentation",
+      "PR: Internal": ":house: Internal",
+      "PR: Underlying Tools": ":hammer: Underlying Tools"
+    },
+    "cacheDir": ".changelog"
+  },
+  "version": "independent"
+}
