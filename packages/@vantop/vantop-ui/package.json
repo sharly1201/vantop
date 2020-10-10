@@ -1,6 +1,6 @@
 {
   "name": "@vantop/vantop-ui",
-  "version": "1.0.1-alpha.1+8c6becd",
+  "version": "1.0.1-alpha.3+cc9ae84",
   "description": "> TODO: description",
   "author": "sharly <sharly1201@gmail.com>",
   "homepage": "https://github.com/sharly1201/vantop/tree/master/packages/@vantop/vantop-ui#readme",
@@ -27,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/sharly1201/vantop/issues"
   },
-  "gitHead": "8c6becd56e9197da6e195b3ce73d0e1ec12946a7"
+  "gitHead": "cc9ae846395e8a5e93e02e0850a5f3cb40e5f23a"
 }
